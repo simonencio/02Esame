@@ -24,7 +24,7 @@
         <section class="fotolavori">
             <div class="card">
                 <h4>CHI SIAMO?</h4>
-            <a href="./chisiamo.html" target="_blank"><img src="./immagini/pagina-chi-siamo.jpg" alt="pagina-chi-siamo" title="pagina-chi-siamo"></a>
+            <a href="./chisiamo.php" target="_blank"><img src="./immagini/pagina-chi-siamo.jpg" alt="pagina-chi-siamo" title="pagina-chi-siamo"></a>
             </div>
             <div class="card">
                 <h4>PORTFOLIO</h4>

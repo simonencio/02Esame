@@ -9,25 +9,9 @@
 </head>
 <body>
     <header>
-        <div>
-            <video muted autoplay loop class="videofullscreen" style="position: absolute;overflow: hidden;width:100%;height:75%;object-fit: cover;z-index: -100;">
-              <source src="./immagini/video.mp4" type="video/mp4">
-            </video>
-            </div>
-        <nav>
-            <ul class="nav-bar">
-                <li class="logo"><a href="./index.html"><img src="./immagini/verologo.jpg" alt="logo"></a></li>
-                <input type="checkbox" id="check">
-                <span class="menu">
-                    <li><a href="./index.html" target="_blank">HOME PAGE</a></li>
-                    <li><a href="./chisiamo.html" target="_blank">CHI SIAMO?</a></li>
-                    <li><a href="./portfolio.html" target="_blank">PORTFOLIO</a></li>
-                    <li><a href="./contatti.html" target="_blank">CONTATTI</a></li>
-                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                </span>
-                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
-        </nav>
+        <?php include 'header.php';
+        echo generateHeaderAndVideo();
+        ?>
         <div class="intro">
         <h1>Chi Siamo?
         <br>Siamo un'azienda specializzata in creazione di siti web ed in grafica digitale.
@@ -65,36 +49,8 @@
     </main>
 
 
-        <footer class="footer">
-            <div class="rigaFooter">
-                <div class="colonnaFooter">
-                <ul>
-                <li>
-                    <p>vienici a trovare in:</p>
-                    <address>
-                    Via di casa, 1<br>58100 Grosseto (GR)<br> Italia
-                    </address>
-                </li>
-            </ul>
-            </div>
-            <div class="colonnaFooter">
-                <ul>
-                    <li>
-                        <p>Contattaci:</p>
-                        <address>
-                            <ul>
-                                <li>
-                                    <a href="mailto:simone2nencioni@icloud.com" title="scrivici una mail">simone2nencioni@icloud.com</a>
-                                </li>
-                                <li>
-                                    <a href="tel:3337215293" title="Telefonaci">+39 3337215293</a>
-                                </li>
-                            </ul>
-                        </address>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        </footer>
+    <?php include 'footer.php';
+        echo generateFooter();
+        ?>
     </body>
     </html>
